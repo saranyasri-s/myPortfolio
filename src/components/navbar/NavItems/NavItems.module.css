@@ -1,0 +1,26 @@
+.NavItems {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.NavItems h4 {
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+
+  font-weight: 300;
+  color: #060404;
+  cursor: pointer;
+  border-bottom: solid transparent 0.2rem;
+}
+
+.NavItems h4:hover {
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: 300;
+  color: rgb(135, 136, 136);
+  border-bottom: solid rgba(135, 136, 136, 0.664) 0.2rem;
+  cursor: pointer;
+}
