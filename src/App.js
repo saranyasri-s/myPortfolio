@@ -8,7 +8,7 @@ import Projects from "./components/projects/Projects";
 import Footer from "./components/Footer/Footer";
 function App() {
   return (
-    <>
+    <div className={classes.App}>
       <Navbar></Navbar>
       <Intro></Intro>
       <About></About>
@@ -16,7 +16,7 @@ function App() {
       <Projects></Projects>
       <Contact></Contact>
       <Footer></Footer>
-    </>
+    </div>
   );
 }
 

@@ -1,0 +1,62 @@
+.Intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 6rem auto;
+}
+.img {
+  height: 350px;
+  width: 350px;
+  padding: 50px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+}
+.right {
+  padding: 50px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.right h2 {
+  font-size: 3rem;
+  margin: 1rem;
+}
+.right p {
+  font-size: 1.5rem;
+  margin: 0;
+}
+.right h4 {
+  font-size: 2rem;
+  margin: 1rem 0;
+  color: grey;
+}
+.right > div {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.right .buttonDownloadCv {
+  padding: 15px 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.right .buttonContact,
+.right .buttonDownloadCv:hover {
+  font-family: sans-serif;
+  padding: 15px 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  margin: 20px;
+  cursor: pointer;
+}
