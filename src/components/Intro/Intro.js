@@ -1,6 +1,8 @@
 import React from "react";
 import classes from "./Intro.module.css";
 import myImage from "../../assets/1634200550867.jpg";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 function Intro() {
   return (
     <div className={classes.Intro}>
@@ -14,8 +16,23 @@ function Intro() {
           <button className={classes.buttonContact}>Contact me</button>
         </div>
         <div>
-          <button className={classes.button}>LinkedIn</button>
-          <button className={classes.button}>Github</button>
+          <FaLinkedin
+            style={{
+              height: "40px",
+              width: "40px",
+              margin: "20px",
+              cursor: "pointer",
+            }}
+          ></FaLinkedin>
+
+          <FaGithub
+            style={{
+              height: "40px",
+              width: "40px",
+              margin: "20px",
+              cursor: "pointer",
+            }}
+          ></FaGithub>
         </div>
       </div>
     </div>
