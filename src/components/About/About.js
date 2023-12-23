@@ -1,8 +1,8 @@
 import React from "react";
 import classes from "./About.module.css";
 import image from "../../assets/girlcoding1.jpg";
-import { FcPortraitMode } from "react-icons/fc";
-import { FcRules } from "react-icons/fc";
+import { GrCatalog } from "react-icons/gr";
+import { GrResources } from "react-icons/gr";
 function About() {
   return (
     <div>
@@ -17,33 +17,53 @@ function About() {
         <div className={classes.About}>
           <div className={classes.top}>
             <div>
-              <FcPortraitMode
-                style={{ height: "30px", width: "30px" }}
-              ></FcPortraitMode>
-              <p>Experience</p>
-              <p>Experience</p>
-              <p>Experience</p>
+              <GrResources
+                style={{ height: "25px", width: "25px" }}
+              ></GrResources>
+              <p
+                style={{
+                  fontWeight: "600",
+                  fontSize: "1.4rem",
+                  margin: 0,
+                  padding: "0.7rem",
+                }}
+              >
+                Experience
+              </p>
+              <p style={{ color: "grey", margin: 0, padding: "0.5rem" }}>
+                1 year, 7 months
+              </p>
+              <p style={{ color: "grey", margin: 0, padding: "0.2rem" }}>
+                Frontend Development
+              </p>
             </div>
             <div>
-              <FcRules style={{ height: "25px", width: "25px" }}></FcRules>
-              <p style={{ fontWeight: "600", margin: 0, padding: "0.2rem" }}>
-                Experience
+              <GrCatalog style={{ height: "25px", width: "25px" }}></GrCatalog>
+              <p
+                style={{
+                  fontWeight: "600",
+                  fontSize: "1.4rem",
+                  margin: 0,
+                  padding: "0.7rem",
+                }}
+              >
+                Education
               </p>
-              <p style={{ fontWeight: "600", margin: 0, padding: "0.2rem" }}>
-                Experience
+              <p style={{ color: "grey", margin: 0, padding: "0.5rem" }}>
+                Bachelor of Dental Surgery (BDS)
               </p>
-              <p style={{ fontWeight: "600", margin: 0, padding: "0.2rem" }}>
-                Experience
+              <p style={{ color: "grey", margin: 0, padding: "0.2rem" }}>
+                Master of Dental Surgery (MDS)
               </p>
             </div>
           </div>
           <div className={classes.description}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-            reprehenderit et laborum, rem, dolore eum quod voluptate
-            exercitationem nobis, nihil esse debitis maxime facere minus sint
-            delectus velit in eos quo officiis explicabo deleniti dignissimos.
-            Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-            reiciendis ea magnam? Nulla, impedit fuga!
+            I am a Dentist and a self taught front end developer with skilled
+            knowledge in Html, CSS, JavaScript, typescript, React js, Redux
+            ,Data structures and Algorithms ,and version control like Git ,
+            GitHub. Throughout my learning, I have built 20+ small projects and
+            emphasized on debugging for conceptual understandings, I have 1.5
+            years of remote job experience.
           </div>
         </div>
       </div>
