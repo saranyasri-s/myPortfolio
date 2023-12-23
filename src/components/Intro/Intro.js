@@ -8,7 +8,7 @@ function Intro() {
     <div className={classes.Intro}>
       <img className={classes.img} src={myImage}></img>
       <div className={classes.right}>
-        <p>Hello I'm</p>
+        <p style={{ fontWeight: "500" }}> Hello I'm</p>
         <h2>Dr. Saranyasri</h2>
         <h4>Frontend Developer</h4>
         <div>

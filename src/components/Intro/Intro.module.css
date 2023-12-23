@@ -6,8 +6,8 @@
   margin: 6rem auto;
 }
 .img {
-  height: 350px;
-  width: 350px;
+  height: 400px;
+  width: 400px;
   padding: 50px;
   border: 1px solid transparent;
   border-radius: 50%;
@@ -20,16 +20,19 @@
   align-items: center;
 }
 .right h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin: 1rem;
+  padding: 0;
 }
 .right p {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   margin: 0;
+  padding: 0;
+  font-weight: 500;
 }
 .right h4 {
   font-size: 2rem;
-  margin: 1rem 0;
+  margin: 0.2rem 0;
   color: grey;
 }
 .right > div {
@@ -40,19 +43,21 @@
 }
 
 .right .buttonDownloadCv {
-  padding: 15px 30px;
+  padding: 15px;
   border: 1px solid black;
   border-radius: 20px;
   background-color: white;
   margin: 20px;
   cursor: pointer;
   font-family: sans-serif;
+  font-weight: 600;
 }
 
 .right .buttonContact,
 .right .buttonDownloadCv:hover {
+  font-weight: 600;
   font-family: sans-serif;
-  padding: 15px 30px;
+  padding: 15px;
   border: 1px solid black;
   border-radius: 20px;
   background-color: black;

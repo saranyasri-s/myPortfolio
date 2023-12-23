@@ -1,0 +1,57 @@
+.AboutHeading {
+  margin: 7rem;
+}
+.AboutHeading p {
+  color: grey;
+  font-family: sans-serif;
+}
+.AboutHeading h2 {
+  font-size: 3rem;
+  margin: 0.6rem;
+  padding: 0;
+}
+.experienceEducation {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 20px auto;
+}
+.experienceEducation .img {
+  width: 370px;
+  height: 370px;
+  border-radius: 12px;
+  margin-right: 2rem;
+}
+.About {
+  display: flex;
+  flex-flow: column;
+  padding: 1rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.top {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.top > div {
+  height: 200px;
+  border: 1px solid rgba(90, 88, 88, 0.543);
+  border-radius: 30px;
+
+  width: 45%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+.description {
+  padding: 1rem;
+  font-family: sans-serif;
+  color: grey;
+}
