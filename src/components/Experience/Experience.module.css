@@ -1,0 +1,32 @@
+.AboutHeading {
+  margin-top: 7rem;
+  margin-bottom: 3rem;
+}
+.AboutHeading p {
+  color: grey;
+  font-family: sans-serif;
+}
+.AboutHeading h2 {
+  font-size: 3rem;
+  margin: 0.6rem;
+  padding: 0;
+}
+.top {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  width: 80%;
+  align-items: center;
+}
+.top > div {
+  min-height: 300px;
+  border: 1px solid rgba(90, 88, 88, 0.543);
+  border-radius: 30px;
+  width: 45%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  padding: 0.5rem;
+}
