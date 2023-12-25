@@ -5,7 +5,7 @@ import { GrCatalog } from "react-icons/gr";
 import { GrResources } from "react-icons/gr";
 function About() {
   return (
-    <div>
+    <div id="About">
       <div className={classes.AboutHeading}>
         <p>Get to know more</p>
         <h2>About me</h2>

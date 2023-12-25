@@ -4,7 +4,7 @@
   justify-content: space-around;
   align-items: center;
 }
-.NavItems h4 {
+.NavItems a {
   padding: 1rem;
   font-size: 1.5rem;
   font-family: sans-serif;
@@ -13,9 +13,10 @@
   color: #060404;
   cursor: pointer;
   border-bottom: solid transparent 0.2rem;
+  text-decoration: none;
 }
 
-.NavItems h4:hover {
+.NavItems a:hover {
   padding: 1rem;
   font-size: 1.5rem;
   font-family: sans-serif;

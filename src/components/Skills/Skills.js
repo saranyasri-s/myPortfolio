@@ -20,6 +20,7 @@ function Skills() {
   ]);
   return (
     <div
+      id="Skills"
       style={{
         width: "80%",
         margin: "1rem auto",

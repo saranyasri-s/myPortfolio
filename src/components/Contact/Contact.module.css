@@ -12,7 +12,7 @@
   padding: 0;
 }
 .contact {
-  width: 30%;
+  width: 60%;
   margin: 1rem auto;
   padding: 2rem;
   border: 1px solid rgba(128, 128, 128, 0.596);
@@ -29,4 +29,11 @@
   flex-flow: row;
   justify-content: center;
   align-items: center;
+}
+.contact a {
+  border-bottom: 1px solid transparent;
+  text-decoration: none;
+}
+.contact a:hover {
+  border-bottom: 1px solid grey;
 }

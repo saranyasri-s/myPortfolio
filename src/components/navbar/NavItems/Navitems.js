@@ -3,10 +3,11 @@ import classes from "./NavItems.module.css";
 function Navitems() {
   return (
     <div className={classes.NavItems}>
-      <h4>About</h4>
-      <h4>Experience</h4>
-      <h4>Projects</h4>
-      <h4>Contact</h4>
+      <a href="#About">About</a>
+      <a href="#Skills">Skills</a>
+      <a href="#Experience">Experience</a>
+      <a href="#Projects">Projects</a>
+      <a href="#Contact">Contact</a>
     </div>
   );
 }

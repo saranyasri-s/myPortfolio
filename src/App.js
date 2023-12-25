@@ -17,7 +17,7 @@ function App() {
       <Experience></Experience>
       <Projects></Projects>
       <Contact></Contact>
-      <Footer></Footer>
+      <div className={classes.footer}><Footer></Footer></div>
     </div>
   );
 }

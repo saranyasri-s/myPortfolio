@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 function Intro() {
   return (
-    <div className={classes.Intro}>
+    <div id="Intro" className={classes.Intro}>
       <img className={classes.img} src={myImage}></img>
       <div className={classes.right}>
         <p style={{ fontWeight: "500" }}> Hello I'm</p>

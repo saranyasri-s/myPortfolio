@@ -4,7 +4,7 @@ import { AiTwotoneMail } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa";
 function Contact() {
   return (
-    <div>
+    <div id="Contact">
       <div className={classes.AboutHeading}>
         <p>Get in touch</p>
         <h2>Contact me</h2>
@@ -14,7 +14,8 @@ function Contact() {
           <AiTwotoneMail
             style={{ padding: "10px", height: "30px", width: "30px" }}
           ></AiTwotoneMail>
-          <p
+          <a
+            href="mailto: dentist.apassionateprogrammer@gmail.com?subject = Feedback&body = Message"
             style={{
               cursor: "pointer",
               color: "grey",
@@ -23,16 +24,20 @@ function Contact() {
             }}
           >
             dentist.apassionateprogrammer@gmail.com
-          </p>
+          </a>
         </div>
 
         <div>
           <FaLinkedin
             style={{ padding: "10px", height: "30px", width: "30px" }}
           ></FaLinkedin>
-          <p style={{ cursor: "pointer", color: "grey", fontSize: "1.2rem" }}>
+          <a
+            href="https://www.linkedin.com/in/saransri/"
+            target="blank"
+            style={{ cursor: "pointer", color: "grey", fontSize: "1.2rem" }}
+          >
             LinkedIn
-          </p>
+          </a>
         </div>
       </div>
     </div>
