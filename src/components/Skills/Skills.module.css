@@ -1,0 +1,47 @@
+.AboutHeading {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+.AboutHeading p {
+  color: grey;
+  font-family: sans-serif;
+}
+.AboutHeading h2 {
+  font-size: 3rem;
+  margin: 0.6rem;
+  padding: 0;
+}
+.Skills {
+  border: 1px solid #80808073;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.Skills > div {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 2rem;
+}
+.skill {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.skill h4 {
+  letter-spacing: 0.7px;
+  margin: 5px;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+}
+.skill p {
+  margin: 7px;
+  text-align: left;
+  color: #808080d2;
+}
