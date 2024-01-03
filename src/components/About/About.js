@@ -11,9 +11,9 @@ function About() {
         <h2>About me</h2>
       </div>
       <div className={classes.experienceEducation}>
-        <div>
+        {/* <div>
           <img className={classes.img} src={image}></img>
-        </div>
+        </div> */}
         <div className={classes.About}>
           <div className={classes.top}>
             <div>

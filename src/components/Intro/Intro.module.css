@@ -7,6 +7,11 @@
   margin: 6rem auto;
   flex-wrap: wrap;
 }
+@media (max-width: 800px) {
+  .Intro {
+    margin: 3rem auto;
+  }
+}
 .img {
   height: 400px;
   width: 400px;
@@ -79,22 +84,32 @@
 }
 @media (max-width: 800px) {
   .right h2 {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
   }
   .right h4 {
-    font-size: 1 rem;
+    font-size: 1.4rem;
   }
   .right .buttonDownloadCv,
   .right .buttonContact {
-    font-size: 0.7rem;
-    padding: 7px;
+    width: 6rem;
+    font-size: 0.9rem;
+    padding: 14px;
     margin: 5px;
     margin-top: 20px;
   }
   .right .buttonDownloadCv:hover {
-    font-size: 0.7rem;
-    padding: 7px;
+    width: 6rem;
+
+    padding: 14px;
     margin: 5px;
     margin-top: 20px;
+  }
+  .right {
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
   }
 }

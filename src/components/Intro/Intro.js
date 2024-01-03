@@ -31,8 +31,8 @@ function Intro() {
           <a href="https://www.linkedin.com/in/saransri/" target="_blank">
             <FaLinkedin
               style={{
-                height: "40px",
-                width: "40px",
+                height: "30px",
+                width: "30px",
                 margin: "20px",
                 cursor: "pointer",
               }}
@@ -41,8 +41,8 @@ function Intro() {
           <a href="https://github.com/saranyasri-s" target="_blank">
             <FaGithub
               style={{
-                height: "40px",
-                width: "40px",
+                height: "30px",
+                width: "30px",
                 margin: "20px",
                 cursor: "pointer",
               }}

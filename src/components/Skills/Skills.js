@@ -5,6 +5,7 @@ import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 function Skills() {
   const [skills, setSkills] = useState([
     { skills: "HTML", level: "Experienced" },
+
     { skills: "CSS", level: "Experienced" },
     { skills: "SCSS/SASS", level: "Intermediate" },
     { skills: "Javascript", level: "Experienced" },
@@ -17,6 +18,7 @@ function Skills() {
     { skills: "Git", level: "Experienced" },
     { skills: "GitHub/GitLab", level: "Experienced" },
     { skills: "GitHub/GitLab", level: "Experienced" },
+    { skills: "Material UI", level: "Intermediate" },
   ]);
   return (
     <div

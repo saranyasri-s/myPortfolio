@@ -1,3 +1,13 @@
+.projectCard {
+  height: 600px;
+  min-width: 400px;
+  padding-top: 60px;
+  width: 40%;
+  border-radius: 20px;
+  border: 1px solid #80808066;
+  margin: auto;
+  background-color: rgb(233 212 212 / 14%);
+}
 .project {
   height: 500px;
   min-width: 300px;
@@ -21,18 +31,18 @@
   margin: 20px;
   text-decoration: none;
   color: white;
-  background-color: #60cff2;
+  background-color: black;
   font-weight: 600;
-  border: 1px solid #60cff2;
+  border: 1px solid black;
   border-radius: 20px;
 }
 .links a:hover {
   background-color: white;
-  color: #60cff2;
+  color: black;
 }
 @media (max-width: 500px) {
   .project {
-    height: 300px;
+    height: 400px;
     min-width: 300px;
 
     width: 40%;
