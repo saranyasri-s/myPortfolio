@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./Intro.module.css";
+import Resume from "../../assets/DrSaranyasriresume.pdf";
 import myImage from "../../assets/1634200550867.jpg";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -13,8 +14,8 @@ function Intro() {
         <h4>Frontend Developer</h4>
         <div>
           <a
-            href="../../assets/drssaranyasriresume.jpg"
-            download
+            href={Resume}
+            download="resume"
             className={classes.buttonDownloadCv}
           >
             Download Cv
