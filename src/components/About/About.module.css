@@ -58,3 +58,10 @@
   color: grey;
   font-size: 1.1rem;
 }
+@media (max-width: 800px) {
+  .experienceEducation .img {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+  }
+}

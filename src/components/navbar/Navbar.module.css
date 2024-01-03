@@ -12,3 +12,15 @@
   color: #060404;
   letter-spacing: 0.5px;
 }
+.Navitems {
+  display: block;
+}
+
+@media (max-width: 800px) {
+  .Navitems {
+    display: none;
+  }
+  .Navbar h2 {
+    font-size: 1.2rem;
+  }
+}

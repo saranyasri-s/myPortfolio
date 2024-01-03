@@ -8,3 +8,8 @@
   margin: 7rem auto;
   margin-bottom: 0;
 }
+@media (max-width: 800px) {
+  .footer {
+    width: 70%;
+  }
+}

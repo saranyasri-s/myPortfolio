@@ -5,7 +5,9 @@ function Navbar() {
   return (
     <div className={classes.Navbar}>
       <h2>Dr. Saranyasri</h2>
-      <Navitems></Navitems>
+      <div className={classes.Navitems}>
+        <Navitems></Navitems>
+      </div>
     </div>
   );
 }

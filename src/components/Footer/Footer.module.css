@@ -1,0 +1,13 @@
+.Navitems {
+  display: block;
+}
+
+@media (max-width: 800px) {
+  .Navitems {
+    display: none;
+  }
+  .Footer {
+    width: 80%;
+    margin: 1rem;
+  }
+}

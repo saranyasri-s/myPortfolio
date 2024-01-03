@@ -14,6 +14,12 @@
   border: 1px solid transparent;
   border-radius: 50%;
 }
+@media (max-width: 800px) {
+  .img {
+    height: 200px;
+    width: 200px;
+  }
+}
 .right {
   padding: 50px;
   display: flex;
@@ -27,6 +33,7 @@
   margin: 1rem;
   padding: 0;
 }
+
 .right p {
   font-size: 1.1rem;
   margin: 0;
@@ -69,4 +76,25 @@
   color: white;
   margin: 20px;
   cursor: pointer;
+}
+@media (max-width: 800px) {
+  .right h2 {
+    font-size: 1.4rem;
+  }
+  .right h4 {
+    font-size: 1 rem;
+  }
+  .right .buttonDownloadCv,
+  .right .buttonContact {
+    font-size: 0.7rem;
+    padding: 7px;
+    margin: 5px;
+    margin-top: 20px;
+  }
+  .right .buttonDownloadCv:hover {
+    font-size: 0.7rem;
+    padding: 7px;
+    margin: 5px;
+    margin-top: 20px;
+  }
 }

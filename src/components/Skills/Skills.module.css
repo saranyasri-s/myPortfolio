@@ -45,3 +45,21 @@
   text-align: left;
   color: #808080d2;
 }
+@media (max-width: 800px) {
+  .Skills > div {
+    padding: 0.5rem;
+    width: 80%;
+  }
+  .skill h4 {
+    letter-spacing: 0.7px;
+    margin: 3px;
+    font-family: sans-serif;
+    font-size: 1rem;
+  }
+  .skill p {
+    margin: 4px;
+    text-align: left;
+    color: #808080d2;
+    font-size: 0.8rem;
+  }
+}

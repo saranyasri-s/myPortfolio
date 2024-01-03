@@ -19,26 +19,35 @@ function Intro() {
           >
             Download Cv
           </a>
-          <button className={classes.buttonContact}>Contact me</button>
+          <a
+            href="#Contact"
+            style={{ textDecoration: "none" }}
+            className={classes.buttonContact}
+          >
+            Contact me
+          </a>
         </div>
         <div>
-          <FaLinkedin
-            style={{
-              height: "40px",
-              width: "40px",
-              margin: "20px",
-              cursor: "pointer",
-            }}
-          ></FaLinkedin>
-
-          <FaGithub
-            style={{
-              height: "40px",
-              width: "40px",
-              margin: "20px",
-              cursor: "pointer",
-            }}
-          ></FaGithub>
+          <a href="https://www.linkedin.com/in/saransri/" target="_blank">
+            <FaLinkedin
+              style={{
+                height: "40px",
+                width: "40px",
+                margin: "20px",
+                cursor: "pointer",
+              }}
+            ></FaLinkedin>
+          </a>
+          <a href="https://github.com/saranyasri-s" target="_blank">
+            <FaGithub
+              style={{
+                height: "40px",
+                width: "40px",
+                margin: "20px",
+                cursor: "pointer",
+              }}
+            ></FaGithub>
+          </a>
         </div>
       </div>
     </div>

@@ -14,17 +14,9 @@ function Contact() {
           <AiTwotoneMail
             style={{ padding: "10px", height: "30px", width: "30px" }}
           ></AiTwotoneMail>
-          <a
-            href="mailto: dentist.apassionateprogrammer@gmail.com?subject = Feedback&body = Message"
-            style={{
-              cursor: "pointer",
-              color: "grey",
-              fontSize: "1.2rem",
-              fontWeight: "500",
-            }}
-          >
+          <p className={classes.email}>
             dentist.apassionateprogrammer@gmail.com
-          </a>
+          </p>
         </div>
 
         <div>
