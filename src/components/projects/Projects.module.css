@@ -1,0 +1,13 @@
+.AboutHeading {
+  margin-top: 7rem;
+  margin-bottom: 3rem;
+}
+.AboutHeading p {
+  color: grey;
+  font-family: sans-serif;
+}
+.AboutHeading h2 {
+  font-size: 3rem;
+  margin: 0.6rem;
+  padding: 0;
+}

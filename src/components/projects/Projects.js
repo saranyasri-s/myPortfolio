@@ -1,12 +1,12 @@
 import React from "react";
 import Template from "./Template/Template";
-
+import classes from "./Projects.module.css";
 function Projects() {
   return (
     <div>
-      <div>
-        <p>Browse my recent</p>
-        <p>Projects</p>
+      <div className={classes.AboutHeading}>
+        <p>Explore my</p>
+        <h2>Projects</h2>
       </div>
       <div>
         <Template></Template>

@@ -12,7 +12,13 @@ function Intro() {
         <h2>Dr. Saranyasri</h2>
         <h4>Frontend Developer</h4>
         <div>
-          <button className={classes.buttonDownloadCv}>Download Cv</button>
+          <a
+            href="../../assets/drssaranyasriresume.jpg"
+            download
+            className={classes.buttonDownloadCv}
+          >
+            Download Cv
+          </a>
           <button className={classes.buttonContact}>Contact me</button>
         </div>
         <div>

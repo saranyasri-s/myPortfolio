@@ -1,0 +1,42 @@
+.project {
+  height: 500px;
+  min-width: 300px;
+
+  width: 40%;
+
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.project img {
+  height: 90%;
+  width: 86%;
+  border: 1px solid #e3d4d4;
+  border-radius: 20px;
+}
+.links a {
+  padding: 10px 20px;
+  margin: 20px;
+  text-decoration: none;
+  color: white;
+  background-color: #60cff2;
+  font-weight: 600;
+  border: 1px solid #60cff2;
+  border-radius: 20px;
+}
+.links a:hover {
+  background-color: white;
+  color: #60cff2;
+}
+@media (max-width: 500px) {
+  .project {
+    height: 300px;
+    min-width: 300px;
+
+    width: 40%;
+
+    margin: auto;
+  }
+}
