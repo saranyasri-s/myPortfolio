@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Intro.module.css";
-import Resume from "../../assets/DrSaranyasriresume.pdf";
+import Resume from "../../assets/myResumeDrSaranyasri.pdf";
 import myImage from "../../assets/1634200550867.jpg";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
